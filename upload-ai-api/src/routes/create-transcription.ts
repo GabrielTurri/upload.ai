@@ -46,7 +46,7 @@ export async function createTranscriptionRoute(app: FastifyInstance) {
         transcription
       },
     })
+    
+    return { transcription }
   })
-
-  return { transcription }
 }
